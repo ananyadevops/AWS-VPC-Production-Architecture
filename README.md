@@ -1,4 +1,4 @@
-# AWS Highly Available VPC Architecture 🏗️
+# AWS Highly Available VPC Architecture 
 
 ## Overview
 Production-ready highly available AWS infrastructure 
@@ -25,6 +25,10 @@ built from scratch using AWS Console.
 - NAT Gateway for outbound internet access
 - Load Balancer for traffic distribution
 - Auto Scaling for handling traffic spikes
+
+## Live Demo
+Portfolio page deployed on AWS EC2 using Nginx!
+File: `index.html`
 
 ## Tech Stack
 AWS VPC | EC2 | ALB | Auto Scaling | NAT Gateway | Route Tables
