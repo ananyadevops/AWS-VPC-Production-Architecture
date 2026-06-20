@@ -1,13 +1,10 @@
+
+
 # AWS Highly Available VPC Architecture 🏗️
 
 ## Overview
 Production-ready highly available AWS infrastructure 
 built from scratch using AWS Console.
-Designed to demonstrate real-world cloud architecture 
-with high availability, security and scalability.
-
-## Architecture Diagram
-![Architecture](architecture-diagram.png)
 
 ## Architecture Components
 - ✅ VPC (10.0.0.0/16)
@@ -22,23 +19,19 @@ with high availability, security and scalability.
 - ✅ Security Groups
 
 ## Key Concepts Used
-- High Availability across 2 Availability Zones
+- High Availability across 2 AZs
 - Private subnets for enhanced security
-- NAT Gateway for secure outbound internet access
-- Application Load Balancer for traffic distribution
-- Auto Scaling for handling traffic spikes automatically
-
-## Live Demo
-Deployed a portfolio page on AWS EC2 using Nginx.
-See `index.html` for the source code.
+- NAT Gateway for outbound internet access
+- Load Balancer for traffic distribution
+- Auto Scaling for handling traffic spikes
 
 ## Screenshots
-All screenshots are available in the `screenshots/` folder.
+All screenshots available in `screenshots/` folder.
 
 ## Tech Stack
-`AWS VPC` `EC2` `ALB` `Auto Scaling Group` `NAT Gateway` `Route Tables` `Security Groups` `Nginx`
+`AWS VPC` `EC2` `ALB` `Auto Scaling` `NAT Gateway` `Route Tables`
 
 ## Author
-**Ananya Chauhan**  
-DevOps Engineer | AWS Cloud Practitioner  
+**Ananya Chauhan**
+DevOps Engineer | AWS Cloud Practitioner
 [GitHub](https://github.com/ananyadevops)
