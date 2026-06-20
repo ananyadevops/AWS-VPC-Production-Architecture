@@ -1,8 +1,11 @@
-# AWS Highly Available VPC Architecture 
+# AWS Highly Available VPC Architecture 🏗️
 
 ## Overview
 Production-ready highly available AWS infrastructure 
 built from scratch using AWS Console.
+
+## Architecture Diagram
+![Architecture](architecture-diagram.png)
 
 ## Architecture Components
 - ✅ VPC (10.0.0.0/16)
@@ -16,8 +19,17 @@ built from scratch using AWS Console.
 - ✅ EC2 Instances in Private Subnets
 - ✅ Security Groups
 
-## Architecture Diagram
-![Architecture](screenshots/vpc.png)
+## Screenshots
+![VPC](screenshots/VPC.png)
+![Resource Map](screenshots/resource%20map.png)
+![Subnets](screenshots/subnet.png)
+![Private Subnets](screenshots/vpc-example-private-subnets.png)
+![Load Balancer](screenshots/Load%20Balancer.png)
+![NAT Gateway](screenshots/Nat%20Gateways.png)
+![Auto Scaling](screenshots/auto%20scaling.png)
+![EC2](screenshots/ec2.png)
+![Website](screenshots/website.png)
+![Website Live](screenshots/website%20live.png)
 
 ## Key Concepts Used
 - High Availability across 2 AZs
@@ -26,9 +38,5 @@ built from scratch using AWS Console.
 - Load Balancer for traffic distribution
 - Auto Scaling for handling traffic spikes
 
-## Live Demo
-Portfolio page deployed on AWS EC2 using Nginx!
-File: `index.html`
-
 ## Tech Stack
-AWS VPC | EC2 | ALB | Auto Scaling | NAT Gateway | Route Tables
+`AWS VPC` `EC2` `ALB` `Auto Scaling` `NAT Gateway` `Route Tables` `Security Groups`
